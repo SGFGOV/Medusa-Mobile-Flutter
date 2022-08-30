@@ -1,0 +1,40 @@
+name: my_store
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.3
+  http: ^0.13.4
+  animated_splash_screen: ^1.2.0
+  json_annotation: ^4.6.0
+  card_swiper: ^2.0.4
+  flutter_svg: ^1.1.4
+  pin_code_text_field: ^1.8.0
+  country_code_picker: ^2.0.2
+  flutter_staggered_grid_view: 0.3.1
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.17.0
+  numberpicker: ^2.1.1
+  rubber: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
